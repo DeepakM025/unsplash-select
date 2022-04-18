@@ -1,0 +1,111 @@
+// color variables
+$theme_primary : #663ff4
+$btn_theme: #ea4c89
+$black_ : #403b55
+$plain_white: #ffffff
+
+a
+  text-decoration: none
+
+body
+  font-family: 'Roboto', sans-serif
+  background-color: #f6f4ff
+.main-wrapper
+  max-width: 390px
+  height: 700px
+  margin: 1rem auto
+  background-color: #312b47
+  border-radius: 20px
+  overflow: hidden
+  position: relative
+// loader wrap
+.loader_wrap
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: #0808085c
+  &>div
+    height: 150px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+// common styled component
+.second_header
+  font-size: 12px
+  color: $black_
+  text-transform: uppercase
+  font-weight: 500
+  letter-spacing: 1px
+  margin: 0 0 .5rem
+
+// home page styles
+.welcome_screen
+  margin: 0 1rem
+  height: 100px
+  background-color: $plain_white
+  border-radius: 20px
+  text-align: center
+  display: flex
+  align-items: center
+  h3
+    font-size: 16px
+    color: $theme_primary
+    text-align: center
+    width: 100%
+    text-transform: uppercase
+    letter-spacing: 3px
+    font-weight: 400
+.add_img_header
+  display: flex
+  justify-content: space-between
+  padding: 0 1rem 1rem
+  h2
+    font-size: 12px
+    color: #e6f5fb
+    text-transform: uppercase
+    font-weight: 300
+    letter-spacing: 1px
+  a
+    background-color: $btn_theme
+    border: none
+    padding: 0.2rem 1rem
+    border-radius: 20px
+    font-size: 14px
+    font-weight: 400
+    letter-spacing: 1px
+    color: #e6f5fb
+    cursor: pointer
+    padding: 0.5rem 1rem
+    text-decoration: unset
+.added_img_
+  display: flex
+  margin: 0 1rem
+  border-radius: 10px
+  max-height: 70vh
+  overflow-y: auto
+  flex-wrap: wrap
+  justify-content: space-between
+  .img_wrap
+    width: 32%
+    height: 100px
+    background-color: #f2f2f2
+    margin-bottom: 5px
+    text-align: center
+    display: flex
+    justify-content: center
+    img
+      max-width: 100%
+      max-height: 100%
+
+// add image page styles
+.img_box_
+  padding: 1rem
+  margin: 1rem
+  background-color: $plain_white
+  overflow: hidden
+  height: 100%
+  border-radius: 20px
